@@ -38,7 +38,7 @@ def encrypt(original_message, key):
             cryptText.append(crypting)
             newLetter = lowercase[crypting]
             outText.append(newLetter)
-        elif eachLetter is ' ':
+        elif eachLetter == ' ':
             outText.append(' ')
     return outText
 
